@@ -181,8 +181,22 @@
 
   }
 
+  footer {
+    background-color: #999999;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+  }
 
+  .links {
+    font-size: 25px;
+    margin: 20px;
+  }
 
+  .links a {
+    text-decoration: none;
+  }
 
   @media (max-width: 850px) {
     .header {
@@ -219,7 +233,7 @@
     .presentation-to-mob p {
       padding: 20px;
       font-weight: bold;
-      text-shadow: 2px 2px 5px #ffffff;
+      color: #FFF;
     }
 
     .card {
@@ -234,7 +248,6 @@
       font-size: 20px;
 
     }
-
   }
 
   @media (max-width: 380px) {
@@ -245,6 +258,14 @@
 
     .card {
       flex-direction: column;
+    }
+
+    .card p {
+      font-size: 16px;
+    }
+
+    .about {
+      height: 400px;
     }
 
   }
@@ -266,12 +287,12 @@
       <div id="presentation" class="presentation">
         <h1>Cartões</h1>
         <h2>com custo ZERO e Cashback!</h2>
-        <p>No Nakonta você encontra<br> o melhor cartão para você!</p>
+        <p>Na Nakonta você encontra<br> o melhor cartão para você!</p>
 
       </div>
       <div class="presentation-to-mob">
         <h2>Cartões com custo ZERO e Cashback!</h2>
-        <p>No Nakonta você encontra o melhor cartão para você!</p>
+        <p>Na Nakonta você encontra o melhor cartão para você!</p>
 
       </div>
 
@@ -349,11 +370,7 @@
         </div>
       </div>
     </section>
-
-    <style>
-
-    </style>
-
+ 
     <!-- Info  Bottom -->
     <section class="about">
       <p>A <strong>Nakonta</strong> é uma nova opção do mercado para apresentar aos seus
@@ -371,15 +388,17 @@
       </a>
     </section>
   </main>
+
+
   <!-- Footer -->
-  <footer style="background-color: #999999; color: white; font-size: 10px; text-align: center; padding: 20px;">
+  <footer>
     <div>
       <p>Ao informar os seus dados, você concorda que a Adworks Solutions como gestora do site possa utilizar seus
         dados para apresentar campanhas através de E-mails e/ou SMS. Os dados coletados nessa página não será
         comercializado para terceiros, segundo padrão da Lei Geral de Proteção aos Dados (LGPD)</p>
     </div>
-    <div style="font-size: 25px; margin: 20px;">
-      <a href="https://web.facebook.com/nakonta.online?_rdc=1&_rdr" style="text-decoration: none;">
+    <div class="links">
+      <a href="https://web.facebook.com/nakonta.online?_rdc=1&_rdr">
         <i class="fa-brands fa-facebook" style="color: white;" onmouseover="this.style.color='#3F62A9'"
           onmouseout="this.style.color='white'"></i>
       </a>
@@ -387,13 +406,15 @@
         <i class="fa-brands fa-instagram" style="color: white;" onmouseover="this.style.color='#9633A5'"
           onmouseout="this.style.color='white'"></i>
       </a>
-      <a href="">
+      <a href="#header">
         <img src="https://nakonta.online/assets/img/logo-footer.png" alt="logo da nakonta" style="width: 80px">
       </a>
     </div>
     <p>Nakota 2022&copy;</p>
   </footer>
   </div>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
   <script src="js/scripts.js"></script>
 </body>
 

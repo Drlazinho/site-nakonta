@@ -195,3 +195,15 @@ submit.addEventListener('click', function(e) {
 
   validator.validate(form);
 });
+
+
+const scrollReveal = ScrollReveal({
+  origin: 'top',
+  distance: '30px',
+  duration: 1000,
+  reset: true
+})
+
+scrollReveal.reveal(`
+#box-form, #presentation, .card img, .card h2, .card p, .about,  footer
+`,{interval: 80})
