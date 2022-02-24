@@ -49,6 +49,7 @@
     color: #4CAC33;
     text-shadow: 1px 1px #000000;
   }
+
   section {
     padding: 2%;
     display: flex;
@@ -57,8 +58,8 @@
     justify-content: center;
   }
 
-  .cart{
-    height: 700px;
+  .cart {
+    height: 720px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -66,30 +67,39 @@
     border-radius: 20px;
     background-color: #999999;
   }
+
+  .imageCart {
+    width: 220px;
+  }
+
   .cart img {
     width: 100%;
     padding: 10px;
   }
 
-  .cart h2, .cart h3{
+  .cart h2,
+  .cart h3 {
     width: 100%;
     background-color: rgb(40, 137, 221);
     text-align: start;
-    
+    padding-left: 10px;
+
   }
   .cart h3 {
     background-color: #4CAC33;
-
   }
+
   .cart ul {
     background-color: rgb(167, 167, 167);
+    height: 400px;
   }
 
 
-  .cart ul li{
+  .cart ul li {
     padding: 10px 10px;
     font-size: 16px;
   }
+
   .btn {
     color: white;
     background-color: #4CAC33;
@@ -97,9 +107,13 @@
     border-radius: 20px;
     padding: 5px 80px;
     margin-top: 20px;
-    
+    cursor: pointer;
   }
 
+  .btn:hover{
+    background-color: #296a19;
+
+  }
   footer {
     background-color: #999999;
     color: white;
@@ -126,122 +140,122 @@
   <main>
     <section>
       <div class="cart">
-        <div>
-          <img src="http://nakonta.online/assets/img/cartao-black.png" alt="">
+        <div class="imageCart">
+          <img src="http://nakonta.online/assets/img/cartao-black.png" alt="Cartão Buscapé com MasterCard do Banco PAN">
         </div>
-        <h2>Cartão PAN</h2>
+        <h2 style="background-color: black; color: #FEC509;">Buscapé MasterCard<br>Banco PAN</h2>
         <h3>Vantagens</h3>
         <div class="content">
           <ul class="list-vantages">
-            <li><strong>Clube de Ofertas</strong> – Descontos em viagens,
+            <li><strong>Cashback</strong> – Tenha até 2% de cashback em suas compras</li>
+            <li><strong>Anuidade Zero</strong> – Não se preocupe com anuidade</li>
+            <li><strong>Garantia estendida</strong> – Você aumenta a garantia dos<br> 
+    produtos que comprar com seu cartão Buscapé</li>
+            <li><strong>Proteção de Preço</strong> – Caso encontre um preço menor<br> 
+    após sua compra, o cartão Buscapé te devolve a diferença</li>
+        </ul>
+        </div>
+        <a href="https://cartao.buscape.com.br/?og=19407&utm_source=lead_media_cartao&utm_medium=midia&utm_campaign=LeadMedia_Display&utm_term=366&gcc=366" target="_blank">
+          <button class="btn">
+            Solicite Já
+          </button>
+        </a>
+      </div>
+
+      <div class="cart">
+        <div class="imageCart">
+          <img src="./images/cards/cartao-cinza.png" alt="Cartão do Banco PAN">
+        </div>
+        <h2 style="background-color: #525258; color: white;">Cinza<br>Banco PAN</h2>
+        <h3>Vantagens</h3>
+        <div class="content">
+          <ul class="list-vantages">
+            <li><strong>Clube de Ofertas</strong> – Descontos em viagens,<br>
     lojas e diversos parceiros</li>
-            <li><strong>Desconto em Farmácias</strong> – Até 25% de descontos
+            <li><strong>Desconto em Farmácias</strong> – Até 25% de descontos<br> 
     na Drogaria São Paulo e Drogarias Pacheco</li>
-            <li><strong>Parcelas Flexíveis</strong> – Você pode parcelar sua fatura
+            <li><strong>Parcelas Flexíveis</strong> – Você pode parcelar sua fatura<br>
     em até 24x *Sujeitos a análise</li>
-            <li><strong>Benefícios MasterCard</strong> – Conte com o programa 
+            <li><strong>Benefícios MasterCard</strong> – Conte com o programa<br> 
     MasterCard Surpreenda</li>
         </ul>
         </div>
-        <a href="">
+        <a href="https://www.bancopan.com.br/produtos/cartao-de-credito/cartao-sem-anuidade/?idcmp=t1:c14:m03:leadmedia-displaypush:perf_cart_kv-inst-leeloo_cpa_soc-ads_dkm:mar-aberto_kv-inst-leeloo_soc-ads_dkm_set21&utm_source=leadmedia-displaypush&utm_medium=cpa&utm_content=mar-aberto_kv-inst-leeloo_soc-ads_dkm_set21&utm_keyword=mar-aberto_set21&utm_campaign=perf_cart_kv-inst-leeloo_cpa_soc-ads_dkm&utm_term=rotativo_responsivo_leeloo" target="_blank">
           <button class="btn">
             Solicite Já
           </button>
         </a>
       </div>
-      
+
       <div class="cart">
-        <div>
-          <img src="http://nakonta.online/assets/img/cartao-cinza.png" alt="">
+        <div class="imageCart">
+          <img src="http://nakonta.online/assets/img/cartao-sx.png" alt="Cartão SX Visa do Santader">
         </div>
-        <h2>Cartão PAN</h2>
+        <h2 style="background-color: #E2211C;">SX VISA<br>Santander</h2>
         <h3>Vantagens</h3>
         <div class="content">
           <ul class="list-vantages">
-            <li><strong>Cashback</strong> – Tenha até 2% de cashback em suas compras</li>
-            <li><strong>Anuidade Zero</strong> – Não se preocupe com anuidade</li>
-            <li><strong>Garantia estendida</strong> – Você aumenta a garantia dos
-              produtos que comprar com seu cartão Buscapé</li>
-            <li><strong>Proteção de Preço</strong> – Caso encontre um preço menor<br>
-              após sua compra, o cartão Buscapé te devolve a diferença</li>
-          </ul>
+            <li><strong>Conta Free</strong> – Conta sem taxas adicionais</li>
+            <li><strong>Anuidade Zero</strong> – Realize R$100,00 de compras<br>
+    por mês e fique livre da anuidade</li>
+            <li><strong>Limite da Conta</strong> – tenha 10 dias sem juros<br>
+    no limite da sua conta</li>
+            <li><strong>Cartão Online</strong> – Utilize seu Cartão Online<br> 
+    antes mesmo do cartão física chegar!</li>
+        </ul>
         </div>
-        <a href="">
+        <a href="https://abrasuaconta.santander.com.br/contacartao/?cp=52&sp=1&utm_source=leadmedia&utm_medium=push&utm_campaign=conv-cart-cont|pf|perf|leadmedia|c-corrente--c-corrente|cpa|na|snt|cartao-conta|baseafiliados&utm_content=limite-inicial|c-corrente--c-corrente|baseafiliados|base-leadmedia|push|suno-performance|push|m10486-23036-17&utm_mmm=:m10486-g23036-p22093[t522-t612]9553:&utm_adid=m10486-23036-17&utm_publisher_id=1117&utm_id=" target="_blank">
           <button class="btn">
             Solicite Já
           </button>
         </a>
       </div>
-      
+
       <div class="cart">
-        <div>
-          <img src="http://nakonta.online/assets/img/cartao-cinza.png" alt="">
+        <div class="imageCart">
+          <img src="./images/cards/carrefour.jpeg" alt="Cartão Carrefour">
         </div>
-        <h2>Cartão PAN</h2>
+        <h2 style="background-color: #2297A9; color: #CDC6C7;">Mastercard<br>Carrefour</h2>
         <h3>Vantagens</h3>
         <div class="content">
           <ul class="list-vantages">
-            <li><strong>Cashback</strong> – Tenha até 2% de cashback em suas compras</li>
-            <li><strong>Anuidade Zero</strong> – Não se preocupe com anuidade</li>
-            <li><strong>Garantia estendida</strong> – Você aumenta a garantia dos<br>
-              produtos que comprar com seu cartão Buscapé</li>
-            <li><strong>Proteção de Preço</strong> – Caso encontre um preço menor<br>
-              após sua compra, o cartão Buscapé te devolve a diferença</li>
-          </ul>
+            <li><strong>Parcelamento</strong> – Parcele sua fatura em até 24x</li>
+            <li><strong>Condições Especiais</strong> – Parcelamentos especiais<br>
+    para compras realizadas no site Carrefour</li>
+            <li><strong>Estorno</strong> – Receba o Estorno em<br>
+    compras acima de R$199,00</li>
+            <li><strong>Abastecer o Carro</strong> – Tenha até 70 dias<br> 
+    para pagar nos postos Carrefour</li>
+        </ul>
         </div>
-        <a href="">
+        <a href="https://aquisicao.carrefoursolucoes.com.br/?utm_source=leadmedia&utm_medium=cpa&utm_campaign=CA_PRF_Conversao_Carrefour_Always-On_BS_Produto_Push&utm_id=1117" target="_blank">
           <button class="btn">
             Solicite Já
           </button>
         </a>
       </div>
-      
+
       <div class="cart">
-        <div>
-          <img src="http://nakonta.online/assets/img/cartao-cinza.png" alt="">
+        <div class="imageCart">
+          <img src="./images/cards/itau.jpeg" alt="Cartão Visa do ItauCard">
         </div>
-        <h2>Cartão PAN</h2>
+        <h2 style="background-color: #EE4202;color: #EFEDE8;">Visa<br>Itaucard</h2>
         <h3>Vantagens</h3>
         <div class="content">
           <ul class="list-vantages">
-            <li><strong>Cashback</strong> – Tenha até 2% de cashback em suas compras</li>
-            <li><strong>Anuidade Zero</strong> – Não se preocupe com anuidade</li>
-            <li><strong>Garantia estendida</strong> – Você aumenta a garantia dos<br>
-              produtos que comprar com seu cartão Buscapé</li>
-            <li><strong>Proteção de Preço</strong> – Caso encontre um preço menor<br>
-              após sua compra, o cartão Buscapé te devolve a diferença</li>
-          </ul>
+            <li><strong>Mais Limite</strong> – Você pode aumentar seu limite no 3° mês</li>
+            <li><strong>Pontos</strong> – Ganhe 3 pontos a cada R$1,00 gasto</li>
+            <li><strong>Tag Itaú</strong> – Passe automaticamente em estacionamentos<br> e pedágios sem mensalidade!</li>
+            <li><strong>Aprocimação</strong> – Acelere suas compras<br> pagando por aproximação!</li>
+        </ul>
         </div>
-        <a href="">
+        <a href="https://cartoes.itau.com.br/cartoes/124?utm_source=igoal&utm_medium=parceria&utm_campaign=cartoes&cpg_s=cmp_ipp&utm_campaign=1451" target="_blank">
           <button class="btn">
             Solicite Já
           </button>
         </a>
       </div>
-      
-      <div class="cart">
-        <div>
-          <img src="http://nakonta.online/assets/img/cartao-cinza.png" alt="">
-        </div>
-        <h2>Cartão PAN</h2>
-        <h3>Vantagens</h3>
-        <div class="content">
-          <ul class="list-vantages">
-            <li><strong>Cashback</strong> – Tenha até 2% de cashback em suas compras</li>
-            <li><strong>Anuidade Zero</strong> – Não se preocupe com anuidade</li>
-            <li><strong>Garantia estendida</strong> – Você aumenta a garantia dos<br>
-              produtos que comprar com seu cartão Buscapé</li>
-            <li><strong>Proteção de Preço</strong> – Caso encontre um preço menor<br>
-              após sua compra, o cartão Buscapé te devolve a diferença</li>
-          </ul>
-        </div>
-        <a href="">
-          <button class="btn">
-            Solicite Já
-          </button>
-        </a>
-      </div>
-      
+
     </section>
 
   </main>
