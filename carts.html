@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Cartões</title>
+</head>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+  body {
+    background-color: aliceblue;
+    font-size: 18px;
+    margin: 0 auto;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont,
+      Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans,
+      Droid Sans, Helvetica Neue, sans-serif;
+  }
+
+  header {
+    background-image: url(https://nakonta.online/assets/img/nakonta.png);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    background-position-y: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  header h2 {
+    font-size: 40px;
+    padding: 0 50px;
+    text-align: left;
+    color: #4CAC33;
+    text-shadow: 1px 1px #000000;
+  }
+  section {
+    padding: 2%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cart{
+    height: 700px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #999999;
+  }
+  .cart img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .cart h2, .cart h3{
+    width: 100%;
+    background-color: rgb(40, 137, 221);
+    text-align: start;
+    
+  }
+  .cart h3 {
+    background-color: #4CAC33;
+
+  }
+  .cart ul {
+    background-color: rgb(167, 167, 167);
+  }
+
+
+  .cart ul li{
+    padding: 10px 10px;
+    font-size: 16px;
+  }
+  .btn {
+    color: white;
+    background-color: #4CAC33;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 80px;
+    margin-top: 20px;
+    
+  }
+
+  footer {
+    background-color: #999999;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .links {
+    font-size: 25px;
+    margin: 20px;
+  }
+
+  .links a {
+    text-decoration: none;
+  }
+</style>
+
+
+<body>
+  <header>
+    <h2>Confira os cartões<br> selecionados para VOCÊ</h2>
+  </header>
+  <main>
+    <section>
+      <div class="cart">
+        <div>
+          <img src="http://nakonta.online/assets/img/cartao-black.png" alt="">
+        </div>
+        <h2>Cartão PAN</h2>
+        <h3>Vantagens</h3>
+        <div class="content">
+          <ul class="list-vantages">
+            <li><strong>Clube de Ofertas</strong> – Descontos em viagens,
+    lojas e diversos parceiros</li>
+            <li><strong>Desconto em Farmácias</strong> – Até 25% de descontos
+    na Drogaria São Paulo e Drogarias Pacheco</li>
+            <li><strong>Parcelas Flexíveis</strong> – Você pode parcelar sua fatura
+    em até 24x *Sujeitos a análise</li>
+            <li><strong>Benefícios MasterCard</strong> – Conte com o programa 
+    MasterCard Surpreenda</li>
+        </ul>
+        </div>
+        <a href="">
+          <button class="btn">
+            Solicite Já
+          </button>
+        </a>
+      </div>
+      
+      <div class="cart">
+        <div>
+          <img src="http://nakonta.online/assets/img/cartao-cinza.png" alt="">
+        </div>
+        <h2>Cartão PAN</h2>
+        <h3>Vantagens</h3>
+        <div class="content">
+          <ul class="list-vantages">
+            <li><strong>Cashback</strong> – Tenha até 2% de cashback em suas compras</li>
+            <li><strong>Anuidade Zero</strong> – Não se preocupe com anuidade</li>
+            <li><strong>Garantia estendida</strong> – Você aumenta a garantia dos
+              produtos que comprar com seu cartão Buscapé</li>
+            <li><strong>Proteção de Preço</strong> – Caso encontre um preço menor<br>
+              após sua compra, o cartão Buscapé te devolve a diferença</li>
+          </ul>
+        </div>
+        <a href="">
+          <button class="btn">
+            Solicite Já
+          </button>
+        </a>
+      </div>
+      
+      <div class="cart">
+        <div>
+          <img src="http://nakonta.online/assets/img/cartao-cinza.png" alt="">
+        </div>
+        <h2>Cartão PAN</h2>
+        <h3>Vantagens</h3>
+        <div class="content">
+          <ul class="list-vantages">
+            <li><strong>Cashback</strong> – Tenha até 2% de cashback em suas compras</li>
+            <li><strong>Anuidade Zero</strong> – Não se preocupe com anuidade</li>
+            <li><strong>Garantia estendida</strong> – Você aumenta a garantia dos<br>
+              produtos que comprar com seu cartão Buscapé</li>
+            <li><strong>Proteção de Preço</strong> – Caso encontre um preço menor<br>
+              após sua compra, o cartão Buscapé te devolve a diferença</li>
+          </ul>
+        </div>
+        <a href="">
+          <button class="btn">
+            Solicite Já
+          </button>
+        </a>
+      </div>
+      
+      <div class="cart">
+        <div>
+          <img src="http://nakonta.online/assets/img/cartao-cinza.png" alt="">
+        </div>
+        <h2>Cartão PAN</h2>
+        <h3>Vantagens</h3>
+        <div class="content">
+          <ul class="list-vantages">
+            <li><strong>Cashback</strong> – Tenha até 2% de cashback em suas compras</li>
+            <li><strong>Anuidade Zero</strong> – Não se preocupe com anuidade</li>
+            <li><strong>Garantia estendida</strong> – Você aumenta a garantia dos<br>
+              produtos que comprar com seu cartão Buscapé</li>
+            <li><strong>Proteção de Preço</strong> – Caso encontre um preço menor<br>
+              após sua compra, o cartão Buscapé te devolve a diferença</li>
+          </ul>
+        </div>
+        <a href="">
+          <button class="btn">
+            Solicite Já
+          </button>
+        </a>
+      </div>
+      
+      <div class="cart">
+        <div>
+          <img src="http://nakonta.online/assets/img/cartao-cinza.png" alt="">
+        </div>
+        <h2>Cartão PAN</h2>
+        <h3>Vantagens</h3>
+        <div class="content">
+          <ul class="list-vantages">
+            <li><strong>Cashback</strong> – Tenha até 2% de cashback em suas compras</li>
+            <li><strong>Anuidade Zero</strong> – Não se preocupe com anuidade</li>
+            <li><strong>Garantia estendida</strong> – Você aumenta a garantia dos<br>
+              produtos que comprar com seu cartão Buscapé</li>
+            <li><strong>Proteção de Preço</strong> – Caso encontre um preço menor<br>
+              após sua compra, o cartão Buscapé te devolve a diferença</li>
+          </ul>
+        </div>
+        <a href="">
+          <button class="btn">
+            Solicite Já
+          </button>
+        </a>
+      </div>
+      
+    </section>
+
+  </main>
+  <footer>
+    <div>
+      <p>Ao informar os seus dados, você concorda que a Adworks Solutions como gestora do site possa utilizar seus
+        dados para apresentar campanhas através de E-mails e/ou SMS. Os dados coletados nessa página não será
+        comercializado para terceiros, segundo padrão da Lei Geral de Proteção aos Dados (LGPD).</p>
+    </div>
+    <div class="links">
+      <a href="https://web.facebook.com/nakonta.online?_rdc=1&_rdr">
+        <i class="fa-brands fa-facebook" style="color: white;" onmouseover="this.style.color='#3F62A9'"
+          onmouseout="this.style.color='white'"></i>
+      </a>
+      <a href="https://www.instagram.com/" style="margin: 0 20px; text-decoration: none;">
+        <i class="fa-brands fa-instagram" style="color: white;" onmouseover="this.style.color='#9633A5'"
+          onmouseout="this.style.color='white'"></i>
+      </a>
+      <a href="#header">
+        <img src="https://nakonta.online/assets/img/logo-footer.png" alt="logo da nakonta" style="width: 80px">
+      </a>
+    </div>
+    <p>Nakota 2022&copy;</p>
+  </footer>
+</body>
+
+</html>
