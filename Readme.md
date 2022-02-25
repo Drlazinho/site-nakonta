@@ -37,6 +37,8 @@ Site de Captura de Clientes para usos de cartões de créditos desenvolvido em u
 
 <img src="./images/site-nakonta.png" style="width:40%">
 
+Segunda Página -(obs: não conectada)
+[https://site-nakonta.vercel.app/carts.html](https://site-nakonta.vercel.app/carts.html)
 
 ## Colaboradores
 
