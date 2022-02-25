@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 
-Site de Captura de Clientes para usos de cartões de créditos.
+Site de Captura de Clientes para usos de cartões de créditos desenvolvido em um Freela.
 
 ## Detalhes do Projeto
 * HTML5;
