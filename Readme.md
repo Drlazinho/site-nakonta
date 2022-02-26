@@ -31,6 +31,8 @@ Site de Captura de Clientes para usos de cartões de créditos desenvolvido em u
     * Email com formato e tamanho mínimo aceitável;
     * Nome com tamanho mínimo aceitável;
 
+Também foi feita uma outra [versão alternativa](https://github.com/Drlazinho/site-nakonta-version-alternative)
+
 ## Resultado
 
 [https://site-nakonta.vercel.app/](https://site-nakonta.vercel.app/)
@@ -55,3 +57,6 @@ Segunda Página -(obs: não conectada)
   </tr>
 </table>
 
+## Licença
+The MIT License (MIT)
+Copyright ©️ 2022 - Lázaro Pimentel
